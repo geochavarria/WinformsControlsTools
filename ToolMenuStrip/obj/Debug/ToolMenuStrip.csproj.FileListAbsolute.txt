@@ -1,1 +1,9 @@
 C:\Projects\ToolMenuStrip\bin\Debug\ToolMenuStrip.exe.config
+C:\Projects\ToolMenuStrip\obj\Debug\ToolMenuStrip.csprojResolveAssemblyReference.cache
+C:\Projects\ToolMenuStrip\obj\Debug\ToolMenuStrip.StartProject.resources
+C:\Projects\ToolMenuStrip\obj\Debug\ToolMenuStrip.Properties.Resources.resources
+C:\Projects\ToolMenuStrip\obj\Debug\ToolMenuStrip.csproj.GenerateResource.Cache
+C:\Projects\ToolMenuStrip\bin\Debug\ToolMenuStrip.exe
+C:\Projects\ToolMenuStrip\bin\Debug\ToolMenuStrip.pdb
+C:\Projects\ToolMenuStrip\obj\Debug\ToolMenuStrip.exe
+C:\Projects\ToolMenuStrip\obj\Debug\ToolMenuStrip.pdb

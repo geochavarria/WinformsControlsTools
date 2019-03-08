@@ -91,6 +91,7 @@ namespace ToolMenuStrip
             {
                 dialogMenu.Items.Add(item);
             }
+            dialogMenu.Show(Cursor.Position);
             dialogMenu.ItemClicked += new ToolStripItemClickedEventHandler(DialogMenuTwo_ItemClicked);
         }
 

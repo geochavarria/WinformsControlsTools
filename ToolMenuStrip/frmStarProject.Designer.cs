@@ -1,6 +1,6 @@
 ﻿namespace ToolMenuStrip
 {
-    partial class StartProject
+    partial class frmStartProject
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btnMenuStrip = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnContextTwo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnMenuStrip
@@ -44,23 +44,24 @@
             this.btnMenuStrip.UseVisualStyleBackColor = true;
             this.btnMenuStrip.Click += new System.EventHandler(this.btnMenuStrip_Click);
             // 
-            // button2
+            // btnContextTwo
             // 
-            this.button2.Location = new System.Drawing.Point(52, 93);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 24);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnContextTwo.Location = new System.Drawing.Point(12, 41);
+            this.btnContextTwo.Name = "btnContextTwo";
+            this.btnContextTwo.Size = new System.Drawing.Size(136, 24);
+            this.btnContextTwo.TabIndex = 1;
+            this.btnContextTwo.Text = "Context Menu Strip";
+            this.btnContextTwo.UseVisualStyleBackColor = true;
+            this.btnContextTwo.Click += new System.EventHandler(this.btnContextTwo_Click);
             // 
-            // StartProject
+            // frmStartProject
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(631, 190);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnContextTwo);
             this.Controls.Add(this.btnMenuStrip);
-            this.Name = "StartProject";
+            this.Name = "frmStartProject";
             this.Text = "Start Project";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -70,7 +71,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnMenuStrip;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnContextTwo;
     }
 }
 

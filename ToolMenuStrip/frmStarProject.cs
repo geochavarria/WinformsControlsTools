@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ToolMenuStrip
 {
-    public partial class StartProject : Form
+    public partial class frmStartProject : Form
     {
-        public StartProject()
+        public frmStartProject()
         {
             InitializeComponent();
         }
@@ -73,6 +73,50 @@ namespace ToolMenuStrip
             }
 
             MessageBox.Show(message,"Great!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        /// <summary>
+        /// This Dinamic Item
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnContextTwo_Click(object sender, EventArgs e)
+        {
+            ContextMenuStrip dialogMenu = new ContextMenuStrip();
+
+            //Location Button
+            this.Cursor = new Cursor(Cursor.Current.Handle);
+
+            foreach (var item in lstItemMenu)
+            {
+                dialogMenu.Items.Add(item);
+            }
+            dialogMenu.ItemClicked += new ToolStripItemClickedEventHandler(DialogMenuTwo_ItemClicked);
+        }
+
+        private void DialogMenuTwo_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            string message = $"This is {e.ClickedItem.ToString()} ";
+
+            switch (e.ClickedItem.ToString())
+            {
+                case "Menu 1":
+
+                    break;
+                case "Menu 2":
+
+                    break;
+                case "Menu 3":
+
+                    break;
+                case "Menu 4":
+
+                    break;
+                default:
+                    break;
+            }
+
+            MessageBox.Show(message, "Great!", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

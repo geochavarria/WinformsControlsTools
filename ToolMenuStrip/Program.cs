@@ -16,7 +16,7 @@ namespace ToolMenuStrip
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StartProject());
+            Application.Run(new frmStartProject());
         }
     }
 }

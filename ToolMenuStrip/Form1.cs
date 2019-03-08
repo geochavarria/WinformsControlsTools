@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace ToolMenuStrip
 {
-    public partial class Form1 : Form
+    public partial class StartProject : Form
     {
-        public Form1()
+        public StartProject()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
